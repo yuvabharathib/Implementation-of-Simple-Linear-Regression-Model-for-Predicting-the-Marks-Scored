@@ -1,4 +1,4 @@
-# Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
+## Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
 ## AIM:
 To write a program to predict the marks scored by a student using the simple linear regression model.
 ## Equipments Required:
@@ -36,14 +36,12 @@ regressor.fit(x_train,y_train)
 y_pred = regressor.predict(x_test)
 y_pred
 y_test
-#Graph plot for training data
 plt.scatter(x_train,y_train,color='black')
 plt.plot(x_train,regressor.predict(x_train),color='purple')
 plt.title("Hours vs Scores(Training set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
-#Graph plot for test data
 plt.scatter(x_test,y_test,color='red')
 plt.plot(x_train,regressor.predict(x_train),color='blue')
 plt.title("Hours vs Scores(Testing set)")
@@ -55,12 +53,17 @@ print('MSE = ',mse)
 mae=mean_absolute_error(y_test,y_pred)
 print('MAE = ',mae)
 rmse=np.sqrt(mse)
-print("RMSE= ",rmse) 
+print("RMSE= ",rmse)
 ```
+
 ## Output:
-![image](https://github.com/yuvabharathib/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/113497404/9a1350c0-5109-4be1-b9b4-3aeaec5b16e9) ![image](https://github.com/yuvabharathib/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/113497404/04a3ca6b-dcf7-4e09-847a-39deba91a11e)
-![image](https://github.com/yuvabharathib/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/113497404/cd5ce0ff-235b-43ea-917c-f385abd7c8e9)
-![image](https://github.com/yuvabharathib/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/113497404/913033c2-7ef7-4546-bced-74e9c86501de)
-![image](https://github.com/yuvabharathib/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/113497404/e72500bf-b019-4e76-a792-136c5ed33fb4)
+![image](https://github.com/yuvabharathib/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/113497404/9a1350c0-5109-4be1-b9b4-3aeaec5b16e9)
+![image](https://github.com/yuvabharathib/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/113497404/04a3ca6b-dcf7-4e09-847a-39deba91a11e)
+
+![image](https://github.com/yuvabharathib/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/113497404/937e4d80-8874-41c8-a902-64a86b35dc3e)
+
+![image](https://github.com/yuvabharathib/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/113497404/7e6157c3-7361-47c9-bb0e-a955de6a6d4f)
+
+![image](https://github.com/yuvabharathib/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/113497404/bf935567-7d88-48d4-81a9-2bc1d618633f)
 ## Result :
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
